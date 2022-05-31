@@ -1,0 +1,15 @@
+{
+    "name": "Affiliate Sales",
+    "description": "Check recent affiliate sales programatically.",
+    "repository": "https://github.com/quataun/affiliate",
+    "env": {
+        "COOKIE": {
+            "description": ".ROBLOSECURITY cookie.",
+            "value": "_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_"
+        },
+        "USER": {
+            "description": "User id.",
+            "value": "12345"
+        }
+    }
+}
