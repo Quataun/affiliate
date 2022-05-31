@@ -49,7 +49,7 @@ setInterval(() => {
                 if(element.details.type == "Asset" && recentAffiliateSales.find(ele => ele.id == element.id) == undefined){
                     recentAffiliateSales.unshift(element)
                 }
-                recentAffiliateSales.length = Math.min(recentAffiliateSales.length, 1000)
+                recentAffiliateSales.length = Math.min(recentAffiliateSales.length, 150)
             })
         }
     })
