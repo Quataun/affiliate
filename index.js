@@ -46,7 +46,7 @@ setInterval(() => {
             const data = json.data
 
             data.forEach(element => {
-                if(recentAffiliateSales.find(ele => ele.id) == undefined){
+                if(recentAffiliateSales.find(ele => ele.id == element.id) == undefined){
                     recentAffiliateSales.unshift(element)
                 }
             })
