@@ -49,7 +49,7 @@ setInterval(() => {
                 if(recentAffiliateSales.find(ele => ele.id) == undefined){
                     recentAffiliateSales.unshift(element)
                 }
-                recentAffiliateSales = recentAffiliateSales.splice(0, 1000)
+                recentAffiliateSales.length = Math.min(recentAffiliateSales.length, 1000)
             })
         }
     })
